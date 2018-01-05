@@ -1,0 +1,3 @@
+sl_thesaurus_homepage:
+    path:     /
+    defaults: { _controller: SLThesaurusBundle:Default:index }

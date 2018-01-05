@@ -1,0 +1,7 @@
+services:
+    Thesaurus:
+        class: SL\ThesaurusBundle\Services\Thesaurus
+        arguments: [doctrine.orm.entity_manager]
+#    sl_thesaurus.example:
+#        class: SL\ThesaurusBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
