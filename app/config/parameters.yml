@@ -10,3 +10,4 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: 76b787c3debecef84652b84d67b6f20ef55f4c64
+    path_upload_synonyms_files: web/uploads/synonyms_files/

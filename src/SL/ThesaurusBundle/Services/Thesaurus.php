@@ -125,6 +125,7 @@ class Thesaurus
                     throw new Exception("Word unknown in the thesaurus");
                 }
                 else {
+                    // call the method from the repository
                     $synonyms = $this->em->getRepository('SLThesaurusBundle:Synonym')->findAllSynonymsByWord($word->getId());
 
                     if ($synonyms) {
@@ -150,6 +151,7 @@ class Thesaurus
         $tabWords = array();
 
         try {
+            // get all the words from the repository
             $words = $this->em->getRepository('SLThesaurusBundle:Word')->findAll();
 
             if ($words) {
